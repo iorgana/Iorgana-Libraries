@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".test_droidhelpers.DroidHelpersActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#08121C"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Droid Helpers"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGetLocalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Device Address" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Address is:"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnIsNetworkAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is Network Available" />
+
+        <TextView
+            android:id="@+id/txtIsNetworkAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="is network available : "
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnIsWifiEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is Wifi Enabled" />
+
+        <TextView
+            android:id="@+id/txtIsWifiEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="is wifi enabled : "
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnIsHotspotEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is Hotspot Enabled" />
+
+        <TextView
+            android:id="@+id/txtIsHotspotEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="is hotspot enabled : "
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnPostNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Notification" />
+    </LinearLayout>
+
+
+</LinearLayout>

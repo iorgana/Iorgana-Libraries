@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.iorgana.droidhelpers.DroidHelpers-merged_res-30:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Wafik\\.gradle\\caches\\transforms-3\\f44ee962773f8b5cafafe2b1f02cd188\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.iorgana.droidhelpers.DroidHelpers-mergeReleaseResources-28:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Wafik\\.gradle\\caches\\transforms-3\\f44ee962773f8b5cafafe2b1f02cd188\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
